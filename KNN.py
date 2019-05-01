@@ -21,7 +21,7 @@ def knn(testset, testsetlabels, trainset, trainsetlabels, K):
     with open("testset.txt", "a") as wf:
         wf.write(f"TEST FOR K={K}\n")
         wf.write(f"ERRORS={testerror}\n")
-        wf.write(f"ACCURACY={hit/(hit + testerror)}%\n\n\n")
+        wf.write(f"ACCURACY={hit/(hit + testerror)}\n\n\n")
 
 
 if __name__ == "__main__":
