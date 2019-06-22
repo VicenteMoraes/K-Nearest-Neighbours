@@ -1,3 +1,3 @@
-# K-Nearest-Nodes
+# K-Nearest-Neighbours
 
-Python 3 Implementation of K-Nearest-Nodes (about as inefficient as you can get)
+Python 3 Implementation of K-Nearest-Neighbours
